@@ -48,6 +48,7 @@ Desde el directorio aplica los manifiestos kubernetes
 <ins> 3- Verifica que esta todo corriendo </ins>
 
 ```kubectl get pods```
+
 ```kubectl get svc```
 
 Si el pod website está en estado Running, ¡ya casi estás!, sino

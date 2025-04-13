@@ -15,7 +15,7 @@ Antes de comenzar, asegurate de tener instalado:
 Hay dos repositorios involucrados:
 
 ### 📁 1. Contenido Web 
-### 📁 2. Manisfiestos
+### 📁 2. Manifiestos
 
 
 ## Clona localmente el repo del sitio web

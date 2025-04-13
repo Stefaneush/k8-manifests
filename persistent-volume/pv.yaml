@@ -8,4 +8,4 @@ spec:
   accessModes:
     - ReadWriteMany
   hostPath:
-    path: "C:\\Users\\Stefano\\Desktop\\K8s casi como en produccion\\static-website"
+    path: /mnt/web

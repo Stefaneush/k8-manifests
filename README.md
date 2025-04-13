@@ -51,7 +51,7 @@ kubectl get svc
 Si el pod website está en estado Running, ¡ya casi estás!, sino
 espera unos segundos y vuelve a revisar
 
-* 4- Accede a la web local *
+4- Accede a la web local
 
 minikube service website-service
 

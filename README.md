@@ -29,31 +29,33 @@ git clone https://github.com/Stefaneush/k8-manifests manifests
 
 # 🚀Instrucciones para levantar el entorno
 
-1- abre una ventana de powershell como administrador y ejecuta el siguiente comando
+<ins> 1- abre una ventana de powershell como administrador y ejecuta el siguiente comando </ins>
 
-minikube start --driver=docker --mount --mount-string="/ruta/a/tu/web:/mnt/web"  (Antes de ":/mnt/web" borra "/ruta/a/tu/web" y pon la ruta donde se encuentra la carpeta website-content que clonaste)
+``` minikube start --driver=docker --mount --mount-string="/ruta/a/tu/web:/mnt/web"  (Antes de ":/mnt/web" borra "/ruta/a/tu/web" y pon la ruta donde se encuentra la carpeta website-content que clonaste) ```
 
-2- Muevete hacia la carpeta manifests que clonaste 
+<ins> 2- Muevete hacia la carpeta manifests que clonaste </ins>
 
-cd /ruta/a/tu/manifests
+``` cd /ruta/a/tu/manifests ```
 
 Desde el directorio aplica los manifiestos kubernetes
 
-kubectl apply -f persistent-volume/
-kubectl apply -f deployment/
-kubectl apply -f service/
+``` kubectl apply -f persistent-volume/ ```
 
-3- Verifica que esta todo corriendo
+``` kubectl apply -f deployment/ ```
 
-kubectl get pods
-kubectl get svc
+``` kubectl apply -f service/ ```
+
+<ins> 3- Verifica que esta todo corriendo </ins>
+
+```kubectl get pods```
+```kubectl get svc```
 
 Si el pod website está en estado Running, ¡ya casi estás!, sino
 espera unos segundos y vuelve a revisar
 
-4- Accede a la web local
+<ins> 4- Accede a la web local </ins>
 
-minikube service website-service
+```minikube service website-service```
 
 Esto abrirá el navegador en el puerto donde se expone el sitio web. También podés acceder manualmente desde:
 

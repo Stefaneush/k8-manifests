@@ -18,16 +18,16 @@ Hay dos repositorios involucrados:
 ### 📁 2. Manisfiestos
 
 
-# Clona localmente el repo del sitio web
+## Clona localmente el repo del sitio web
 git clone https://github.com/Stefaneush/static-website.git website-content
 
 
-# Haz lo mismo con el de manifests
+## Haz lo mismo con el de manifests
 git clone https://github.com/Stefaneush/k8-manifests manifests
 
 
 
-🚀 Instrucciones para levantar el entorno
+#🚀 Instrucciones para levantar el entorno
 
 1- abre una ventana de powershell como administrador y ejecuta el siguiente comando
 
@@ -37,7 +37,7 @@ minikube start --driver=docker --mount --mount-string="/ruta/a/tu/web:/mnt/web" 
 
 cd /ruta/a/tu/manifests
 
-## Desde el directorio aplica los manifiestos kubernetes
+Desde el directorio aplica los manifiestos kubernetes
 
 kubectl apply -f persistent-volume/
 kubectl apply -f deployment/

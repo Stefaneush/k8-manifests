@@ -27,7 +27,7 @@ git clone https://github.com/Stefaneush/k8-manifests manifests
 
 
 
-#🚀 Instrucciones para levantar el entorno
+🚀 # Instrucciones para levantar el entorno
 
 1- abre una ventana de powershell como administrador y ejecuta el siguiente comando
 

@@ -25,7 +25,7 @@ Hay dos repositorios involucrados:
 ## Haz lo mismo con el de manifests
 ``` git clone https://github.com/Stefaneush/k8-manifests manifests ```
 
-_Te recomiendo meter estas carpetas dentro de otra para tener todo más ordenado_
+**Te recomiendo meter estas carpetas dentro de otra para tener todo más ordenado**
 
 
 # 🚀Instrucciones para levantar el entorno

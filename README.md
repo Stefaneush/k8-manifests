@@ -30,11 +30,13 @@ Hay dos repositorios involucrados:
 
 # 🚀Instrucciones para levantar el entorno
 
-<ins> 1- abre una ventana de powershell como administrador y ejecuta el siguiente comando </ins>
+<ins> 1- Abre Docker Desktop, De lo contrario tu despliuegue no funcionará.</ins>
+
+<ins> 2- abre una ventana de powershell como administrador y ejecuta el siguiente comando </ins>
 
 ``` minikube start --driver=docker --mount --mount-string="/ruta/a/tu/web:/mnt/web"  (Antes de ":/mnt/web" borra "/ruta/a/tu/web" y pon la ruta donde se encuentra la carpeta website-content que clonaste) ```
 
-<ins> 2- Muevete hacia la carpeta manifests que clonaste </ins>
+<ins> 3- Muevete hacia la carpeta manifests que clonaste </ins>
 
 ``` cd /ruta/a/tu/manifests ```
 
@@ -46,7 +48,7 @@ Desde el directorio aplica los manifiestos kubernetes
 
 ``` kubectl apply -f service/ ```
 
-<ins> 3- Verifica que esta todo corriendo </ins>
+<ins> 4- Verifica que esta todo corriendo </ins>
 
 ```kubectl get pods```
 
@@ -55,7 +57,7 @@ Desde el directorio aplica los manifiestos kubernetes
 Si el pod website está en estado Running, ¡ya casi estás!, sino
 espera unos segundos y vuelve a revisar
 
-<ins> 4- Accede a la web local </ins>
+<ins> 5- Accede a la web local </ins>
 
 ```minikube service website-service```
 

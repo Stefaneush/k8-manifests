@@ -19,11 +19,11 @@ Hay dos repositorios involucrados:
 
 
 ## Clona localmente el repo del sitio web
-git clone https://github.com/Stefaneush/static-website.git website-content
+``` git clone https://github.com/Stefaneush/static-website.git website-content ```
 
 
 ## Haz lo mismo con el de manifests
-git clone https://github.com/Stefaneush/k8-manifests manifests
+``` git clone https://github.com/Stefaneush/k8-manifests manifests ```
 
 
 

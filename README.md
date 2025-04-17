@@ -36,6 +36,8 @@ Hay dos repositorios involucrados:
 
 ``` minikube start --driver=docker --mount --mount-string="/ruta/a/tu/web:/mnt/web"  (Antes de ":/mnt/web" borra "/ruta/a/tu/web" y pon la ruta donde se encuentra la carpeta website-content que clonaste) ```
 
+Una vez que veas "Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default" ya estas listo para el siguiente paso.
+
 <ins> 3- Muevete hacia la carpeta manifests que clonaste </ins>
 
 ``` cd /ruta/a/tu/manifests ```

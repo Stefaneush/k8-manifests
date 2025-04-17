@@ -63,10 +63,7 @@ espera unos segundos y vuelve a revisar
 
 ```minikube service website-service```
 
-Esto abrirá el navegador en el puerto donde se expone el sitio web. También podés acceder manualmente desde:
-
-http://localhost:30080/
-
+Esto abrirá el navegador en el puerto donde se expone el sitio web.
 
 y listo 🎉 
 

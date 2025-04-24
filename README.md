@@ -17,8 +17,9 @@ Hay dos repositorios involucrados:
 ### 📁 1. Contenido Web 
 ### 📁 2. Manifiestos
 
+---ABRÍ GIT BASH Y MOVETE AL ESCRITORIO---
 
-## Clona localmente el repo del sitio web
+## Cloná localmente el repo del sitio web
 ``` git clone https://github.com/Stefaneush/static-website.git website-content ```
 
 
@@ -36,13 +37,13 @@ Hay dos repositorios involucrados:
 
 ``` minikube start --driver=docker --mount --mount-string="/ruta/a/tu/web:/mnt/web"  (Antes de ":/mnt/web" borra "/ruta/a/tu/web" y pon la ruta donde se encuentra la carpeta website-content que clonaste) ```
 
-Una vez que veas "Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default" ya estas listo para el siguiente paso.
+Una vez que veas ``` "Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default" ```ya estas listo para el siguiente paso.
 
 <ins> 3- Muevete hacia la carpeta manifests que clonaste </ins>
 
 ``` cd /ruta/a/tu/manifests ```
 
-Desde el directorio aplica los manifiestos kubernetes
+Una vez ahí, aplica los manifiestos kubernetes
 
 ``` kubectl apply -f persistent-volume/ ```
 

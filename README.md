@@ -18,7 +18,6 @@ Hay dos repositorios involucrados:
 ### 📁 2. Manifiestos
 
 ## ABRÍ GIT BASH Y MOVETE AL ESCRITORIO
-
 ## Cloná localmente el repo del sitio web
 ``` git clone https://github.com/Stefaneush/static-website.git website-content ```
 

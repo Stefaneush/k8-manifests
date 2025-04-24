@@ -17,7 +17,10 @@ Hay dos repositorios involucrados:
 ### 📁 1. Contenido Web 
 ### 📁 2. Manifiestos
 
-## ABRÍ GIT BASH Y MOVETE AL ESCRITORIO
+# 📍 Pasos para clonar los repos
+
+
+
 ## Cloná localmente el repo del sitio web
 ``` git clone https://github.com/Stefaneush/static-website.git website-content ```
 

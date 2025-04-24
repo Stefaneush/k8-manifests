@@ -19,15 +19,15 @@ Hay dos repositorios involucrados:
 
 # 📍 Pasos para clonar los repos
 
-## 1. Hacé click derecho en el escritorio y apretá `Open Git Bash here`
+### 1. Hacé click derecho en el escritorio y apretá `Open Git Bash here`
 
-## 2. Cloná localmente el repo del sitio web
+### 2. Cloná localmente el repo del sitio web
 ``` git clone https://github.com/Stefaneush/static-website.git website-content ```
 
-## 3. Haz lo mismo con el de manifests
+### 3. Haz lo mismo con el de manifests
 ``` git clone https://github.com/Stefaneush/k8-manifests manifests ```
 
-## **⚠ Te recomiendo agrupar estos directorios dentro de una carpeta para tener todo más ordenado ⚠**
+### **⚠ Te recomiendo agrupar estos directorios dentro de una carpeta para tener todo más ordenado ⚠**
 
 
 # 🚀Instrucciones para levantar el entorno
